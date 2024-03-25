@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Форма</title>
+    <style>
+        #MyForm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(251, 222, 242);
+        color:black;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        body {
+        margin: 0 auto;
+        align-items: center;
+        max-width: 850px;
+        }
+        #MyBut {
+        font-size: 25px;
+        padding: 10px;
+        background-color: #f213a8;
+        border-radius: 10px;
+        color: white;
+        }
+        input[type="text"] {
+        display: block;
+        width: 100%;
+        height: 25px;
+        padding: 5px;
+        border: 1px solid #bdbdbd;
+        border-radius: 0.25rem;
+        margin: 5px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+<div id="MyForm">
+    <form class="d-flex column" action="/cgi-bin/processing.py" method="post">
+            <label><br>
+            Название картины:<br>
+            <input type="text" name="PaintingName">
+            </label><br>
+
+            <label><br>
+            Год написания картины:<br>
+            <input type="text" name="PaintingYear">
+            </label><br>
+
+            <label><br>
+            Имя художника:<br>
+            <input type="text" name="ArtistName">
+            </label><br>
+
+            <label><br>
+            Год рождения художника:<br>
+            <input type="text" name="ArtistBirthYear">
+            </label><br>
+
+            <label><br>
+            Направление живописи:<br>
+            <input type="text" name="Genre">
+            </label><br>
+
+        <div style="text-align: center; margin-bottom: 30px;">
+            <input type="submit" id="MyBut" value="Отправить">
+        </div>
+</form>
+</div>
+</body>
+</html>
