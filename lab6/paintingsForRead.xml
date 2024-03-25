@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<paintings>
+    <painting>
+        <id>1</id>
+        <title>Spring Flowers</title>
+        <artist>
+            <name>Claude Monet</name>
+            <birthYear>1840</birthYear>
+        </artist>
+        <year>1864</year>
+        <genre>Still-life</genre>
+    </painting>
+    <painting>
+        <id>2</id>
+        <title>Mona Lisa</title>
+        <artist>
+            <name>Leonardo Da Vinci</name>
+            <birthYear>1452</birthYear>
+        </artist>
+        <year>1506</year>
+        <genre>Portrait</genre>
+    </painting>
+    <painting>
+        <id>3</id>
+        <title>The Starry Night</title>
+        <artist>
+            <name>Vincent Van Gogh</name>
+            <birthYear>1853</birthYear>
+        </artist>
+        <year>1889</year>
+        <genre>Landscape</genre>
+    </painting>
+    <painting>
+        <id>4</id>
+        <title>Black Square</title>
+        <artist>
+            <name>Kazimir Malevich</name>
+            <birthYear>1879</birthYear>
+        </artist>
+        <year>1915</year>
+        <genre>Abstract</genre>
+    </painting>
+    <painting>
+        <id>5</id>
+        <title>The Creation of Adam</title>
+        <artist>
+            <name>Michelangelo</name>
+            <birthYear>1475</birthYear>
+        </artist>
+        <year>1512</year>
+        <genre>Religious</genre>
+    </painting>
+</paintings>
