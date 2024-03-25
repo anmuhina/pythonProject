@@ -1,0 +1,8 @@
+from http.server import HTTPServer
+from http.server import CGIHTTPRequestHandler
+
+server_address = ("localhost", 8000)
+http_server = HTTPServer(server_address, CGIHTTPRequestHandler)
+handler = CGIHTTPRequestHandler
+handler.cgi_directories = ["/cgi-bin"]
+http_server.serve_forever()
