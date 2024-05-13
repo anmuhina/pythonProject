@@ -1,3 +1,4 @@
+#ВАРИАНТ 10
 import xmltodict
 from geopy.distance import geodesic
 
