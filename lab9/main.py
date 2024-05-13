@@ -1,3 +1,4 @@
+#ВАРИАНТ 10
 import csv
 import re
 
